@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at polygonscan.com on 2024-11-26
-*/
-
 // SPDX-License-Identifier: MIT
 
 /**
