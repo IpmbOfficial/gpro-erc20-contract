@@ -1,14 +1,14 @@
 /**
- *Submitted for verification at amoy.polygonscan.com on 2024-11-25
+ *Submitted for verification at polygonscan.com on 2024-11-26
 */
 
 // SPDX-License-Identifier: MIT
 
 /**
  *
- *  @title: IPMB GOLD Token (iGOLD)
- *  @date: 25-November-2024
- *  @version: 0.6
+ *  @title: Gold Pro (GPRO)
+ *  @date: 26-November-2024
+ *  @version: 0.7
  *  @author: IPMB Dev Team
  */
 
@@ -620,7 +620,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
 
 pragma solidity ^0.8.19;
 
-contract IPMBGold is ERC20, Ownable, ERC20Burnable {
+contract GoldPro is ERC20, Ownable, ERC20Burnable {
 
     // variables/mapping declarations
     uint256 public maxSupply;
@@ -656,7 +656,7 @@ contract IPMBGold is ERC20, Ownable, ERC20Burnable {
     // constructor 
     constructor(string memory _name, string memory _symbol, uint256 amount) ERC20(_name, _symbol) {
         uint256 mintedSupply;
-        mintedSupply = amount * 10 ** decimals();
+        mintedSupply = amount;
         _mint(msg.sender, mintedSupply);
         admin[msg.sender] = true;
         maxSupply = 200000000 * 10 ** decimals();
