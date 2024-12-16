@@ -7,7 +7,7 @@ GoldPro (GPRO) is an ERC20-compliant token designed for seamless transactions, s
 - **Token Name:** Gold Pro
 - **Symbol:** GPRO
 - **Maximum Supply:** 200,000,000 GPRO (200,000 kilograms or 200 tons of 22-carat gold doré bars)
-- **Initial Supply:** 3,552,978.71 GPRO
+- **Initial Supply:** 4,626,703 GPRO
 - **Decimals:** 18
 - **Blockchain:** Polygon (PoS)
 - **Deployment Address:** [0xACe7eb41D6BAd44907cdA84A122F052c74cB7826](https://polygonscan.com/address/0xACe7eb41D6BAd44907cdA84A122F052c74cB7826)
